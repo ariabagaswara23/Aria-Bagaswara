@@ -1,0 +1,257 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.section-title {
+  font-weight: bold;
+}
+
+.navbar {
+  background-color: #17191a;
+}
+
+.navbar .navbar-brand {
+  color: #8a21ec;
+}
+
+.navbar .navbar-toggler-icon {
+  color: #8a21ec;
+}
+
+.navbar .navbar-nav .nav-link {
+  color: #8a21ec;
+}
+
+.jumbotron {
+  padding-top: 3rem;
+  background-color: #8a21ec;
+  color: #17191a;
+}
+
+.jumbotron .jumbotron-image {
+  border-radius: 50%;
+  border: 10px solid #17191a;
+}
+
+#about {
+  background-color: #17191a;
+  margin-top: -1px;
+  padding-top: 20px;
+  overflow: auto;
+}
+
+#about .section-title {
+  margin-top: 40px;
+  color: #8a21ec;
+}
+
+#about .profile {
+  padding-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#about .profile .about-text {
+  color: #8a21ec;
+}
+
+#about .profile .img-about {
+  border: 3px solid #8a21ec;
+  border-radius: 25%;
+}
+
+#about .profile .social-media-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#about .profile .social-media-container .icon {
+  padding: 10px;
+  margin: 5px;
+  font-size: 25px;
+}
+
+#about .profile .social-media-container .icon a {
+  color: #8a21ec;
+}
+
+#about .profile .social-media-container .icon .github:hover {
+  color: #333;
+}
+
+#about .profile .social-media-container .icon .instagram:hover {
+  color: #c13584;
+}
+
+#about .profile .social-media-container .icon .linkedin:hover {
+  color: #0077b5;
+}
+
+#about .profile .info {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#about .profile .info .first-block {
+  color: #8a21ec;
+  font-weight: bold;
+  display: block;
+}
+
+#about .profile .info .second-block {
+  color: #8a21ec;
+  font-weight: 500;
+  display: block;
+}
+
+#skills {
+  background-color: #8a21ec;
+  margin-top: -1px;
+  padding-top: 20px;
+  overflow: auto;
+}
+
+#skills .section-title {
+  margin-top: 40px;
+  color: #17191a;
+}
+
+#skills .frontend {
+  margin-top: 15px;
+}
+
+#skills .frontend h3 {
+  color: #17191a;
+}
+
+#skills .frontend .skill-progress {
+  margin: 10px 20px;
+}
+
+#skills .frontend .skill-progress h4 {
+  color: #17191a;
+  margin-top: 15px;
+  text-align: start;
+  margin-left: 10px;
+}
+
+#skills .frontend .skill-progress .container {
+  background-color: #17191a;
+  border-radius: 9999px;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+#skills .frontend .skill-progress .container .container_progress {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border: 5px solid #17191a;
+  background-color: #8a21ec;
+  color: #fff;
+  border-radius: 9999px;
+}
+
+#skills .backend {
+  margin-top: 15px;
+}
+
+#skills .backend h3 {
+  color: #17191a;
+}
+
+#skills .backend .skill-progress {
+  margin: 10px 20px;
+}
+
+#skills .backend .skill-progress h4 {
+  color: #17191a;
+  margin-top: 15px;
+  text-align: start;
+  margin-left: 10px;
+}
+
+#skills .backend .skill-progress .container {
+  background-color: #17191a;
+  border-radius: 9999px;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+#skills .backend .skill-progress .container .container_progress {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border: 5px solid #17191a;
+  background-color: #8a21ec;
+  color: #fff;
+  border-radius: 9999px;
+}
+
+#services {
+  background-color: #17191a;
+  margin-top: -1px;
+  padding-top: 20px;
+  overflow: auto;
+}
+
+#services .section-title {
+  margin-top: 40px;
+  color: #8a21ec;
+}
+
+#services .card {
+  margin: 20px 10px 10px 10px;
+  border: 5px solid #8a21ec;
+  border-radius: 20px;
+}
+
+#services .card h4 {
+  margin-top: 90px;
+}
+
+#portfolio {
+  background-color: #8a21ec;
+  margin-top: -1px;
+  padding-top: 20px;
+  overflow: auto;
+}
+
+#portfolio .section-title {
+  margin-top: 40px;
+  color: #17191a;
+}
+
+#portfolio .carousel {
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+#portfolio .carousel .carousel-inner {
+  border-radius: 30px;
+}
+
+#portfolio .carousel .carousel-caption {
+  background-color: rgba(0, 0, 0, 0.384);
+  border-radius: 30px;
+}

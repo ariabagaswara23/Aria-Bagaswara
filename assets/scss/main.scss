@@ -1,0 +1,255 @@
+@import "fonts";
+
+$primarycolor: #17191a;
+$secondarycolor: #8a21ec;
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.section-title {
+    font-weight: bold;
+}
+
+.navbar {
+    background-color: $primarycolor;
+
+    .navbar-brand {
+        color: $secondarycolor;
+    }
+
+    .navbar-toggler-icon {
+        color: $secondarycolor;
+    }
+
+    .navbar-nav {
+        .nav-link {
+            color: $secondarycolor;
+        }
+    }
+}
+
+.jumbotron {
+    padding-top: 3rem;
+    background-color: $secondarycolor;
+    color: $primarycolor;
+
+    .jumbotron-image {
+        border-radius: 50%;
+        border: 10px solid $primarycolor;
+    }
+}
+
+#about {
+    background-color: $primarycolor;
+    margin-top: -1px;
+    padding-top: 20px;
+    overflow: auto;
+
+    .section-title {
+        margin-top: 40px;
+        color: $secondarycolor;
+    }
+
+    .profile {
+        padding-top: 20px;
+        display: flex;
+
+        .about-text {
+            color: $secondarycolor;
+        }
+
+        .img-about {
+            border: 3px solid $secondarycolor;
+            border-radius: 25%;
+        }
+
+        .social-media-container {
+            display: flex;
+
+            .icon {
+                padding: 10px;
+                margin: 5px;
+                font-size: 25px;
+
+                a {
+                    color: $secondarycolor;
+                }
+
+                .github {
+                    &:hover {
+                        color: #333;
+                    }
+                }
+
+                .instagram {
+                    &:hover {
+                        color: #c13584;
+                    }
+                }
+
+                .linkedin {
+                    &:hover {
+                        color: #0077b5;
+                    }
+                }
+            }
+        }
+
+        .info {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+
+            .first-block {
+                color: $secondarycolor;
+                font-weight: bold;
+                display: block;
+            }
+
+            .second-block {
+                color: $secondarycolor;
+                font-weight: 500;
+                display: block;
+            }
+        }
+    }
+
+}
+
+#skills {
+    background-color: $secondarycolor;
+    margin-top: -1px;
+    padding-top: 20px;
+    overflow: auto;
+
+    .section-title {
+        margin-top: 40px;
+        color: $primarycolor;
+    }
+
+    .frontend {
+        margin-top: 15px;
+
+        h3 {
+            color: $primarycolor;
+        }
+
+        .skill-progress {
+            margin: 10px 20px;
+
+            h4 {
+                color: $primarycolor;
+                margin-top: 15px;
+                text-align: start;
+                margin-left: 10px;
+            }
+
+            .container {
+                background-color: $primarycolor;
+                border-radius: 9999px;
+                padding-left: 0;
+                padding-right: 0;
+
+
+                .container_progress {
+                    align-items: center;
+                    display: flex;
+                    justify-content: center;
+                    border: 5px solid $primarycolor;
+                    background-color: $secondarycolor;
+                    color: #fff;
+                    border-radius: 9999px;
+                }
+            }
+        }
+    }
+
+    .backend {
+        margin-top: 15px;
+
+        h3 {
+            color: $primarycolor;
+        }
+
+        .skill-progress {
+            margin: 10px 20px;
+
+            h4 {
+                color: $primarycolor;
+                margin-top: 15px;
+                text-align: start;
+                margin-left: 10px;
+            }
+
+            .container {
+                background-color: $primarycolor;
+                border-radius: 9999px;
+                padding-left: 0;
+                padding-right: 0;
+
+
+                .container_progress {
+                    align-items: center;
+                    display: flex;
+                    justify-content: center;
+                    border: 5px solid $primarycolor;
+                    background-color: $secondarycolor;
+                    color: #fff;
+                    border-radius: 9999px;
+                }
+            }
+        }
+    }
+}
+
+#services {
+    background-color: $primarycolor;
+    margin-top: -1px;
+    padding-top: 20px;
+    overflow: auto;
+
+    .section-title {
+        margin-top: 40px;
+        color: $secondarycolor;
+    }
+
+    .card {
+        margin: 20px 10px 10px 10px;
+        border: 5px solid $secondarycolor;
+        border-radius: 20px;
+
+        h4 {
+            margin-top: 90px;
+        }
+    }
+}
+
+#portfolio {
+    background-color: $secondarycolor;
+    margin-top: -1px;
+    padding-top: 20px;
+    overflow: auto;
+
+    .section-title {
+        margin-top: 40px;
+        color: $primarycolor;
+    }
+
+    .carousel {
+        margin-top: 20px;
+        margin-bottom: 50px;
+
+        .carousel-inner {
+            border-radius: 30px;
+        }
+
+        .carousel-caption {
+            background-color: rgba(0, 0, 0, 0.384);
+            border-radius: 30px;
+        }
+    }
+}
