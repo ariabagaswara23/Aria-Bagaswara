@@ -10,6 +10,24 @@ body {
     box-sizing: border-box;
 }
 
+.github {
+    &:hover {
+        color: #333;
+    }
+}
+
+.instagram {
+    &:hover {
+        color: #c13584;
+    }
+}
+
+.linkedin {
+    &:hover {
+        color: #0077b5;
+    }
+}
+
 .section-title {
     font-weight: bold;
 }
@@ -79,23 +97,6 @@ body {
                     color: $secondarycolor;
                 }
 
-                .github {
-                    &:hover {
-                        color: #333;
-                    }
-                }
-
-                .instagram {
-                    &:hover {
-                        color: #c13584;
-                    }
-                }
-
-                .linkedin {
-                    &:hover {
-                        color: #0077b5;
-                    }
-                }
             }
         }
 
@@ -243,6 +244,7 @@ body {
         margin-top: 20px;
         margin-bottom: 50px;
 
+
         .carousel-inner {
             border-radius: 30px;
         }
@@ -250,6 +252,33 @@ body {
         .carousel-caption {
             background-color: rgba(0, 0, 0, 0.384);
             border-radius: 30px;
+        }
+    }
+}
+
+footer {
+    background-color: $primarycolor;
+
+    .container {
+        .row {
+            h3 {
+                margin-top: 30px;
+                color: $secondarycolor;
+            }
+
+            p {
+                color: $secondarycolor;
+            }
+
+            .social-media {
+                display: flex;
+
+                .icon a {
+                    margin: 10px;
+                    color: $secondarycolor;
+                    font-size: 30px;
+                }
+            }
         }
     }
 }
